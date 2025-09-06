@@ -7,20 +7,79 @@
 
     <style name="Theme.Nativ" parent="Base.Theme.Nativ" />
     <!--  TextStyle  -->
-    <style name="TextStyle">
-
+    <!-- Extra Large Titles -->
+    <style name="TextAppearance.MyApp.DisplayLarge">
+        <item name="android:textSize">60sp</item>
+        <item name="android:lineHeight" tools:targetApi="28">72sp</item>
+        <item name="android:letterSpacing">-0.05</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="TextAppearance.MyApp.DisplayMedium">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineHeight" tools:targetApi="28">56sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
-    <style name="TextStyle.extra"></style>
+    <style name="TextAppearance.MyApp.DisplaySmall">
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineHeight" tools:targetApi="28">44sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
-    <style name="TextStyle.small"></style>
+    <!-- Headlines -->
+    <style name="TextAppearance.MyApp.HeadlineLarge">
+        <item name="android:textSize">32sp</item>
+        <item name="android:lineHeight" tools:targetApi="28">40sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
-    <style name="TextStyle.smallExtra"></style>
+    <style name="TextAppearance.MyApp.HeadlineMedium">
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineHeight" tools:targetApi="28">36sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
-    <style name="TextStyle.mediumSamill"></style>
+    <style name="TextAppearance.MyApp.HeadlineSmall">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineHeight" tools:targetApi="28">32sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
-    <style name="TextStyle.logExtra"></style>
+    <!-- Titles -->
+    <style name="TextAppearance.MyApp.TitleLarge">
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineHeight" tools:targetApi="28">28sp</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.TitleMedium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineHeight" tools:targetApi="28">24sp</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:fontWeight" tools:targetApi="26">500</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.TitleSmall">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight" tools:targetApi="28">22sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontWeight" tools:targetApi="26">500</item>
+    </style>
+
+    <!-- Body -->
+    <style name="TextAppearance.MyApp.Body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineHeight" tools:targetApi="28">20sp</item>
+        <item name="android:letterSpacing">0.25</item>
+        <item name="android:textStyle">normal</item>
+    </style>
     <!--  ButtonStyle  -->
     <style name="ButtonStyle"></style>
     <!--  APPBar  -->
@@ -31,6 +90,7 @@
     <style name="BottomNavigation"></style>
     <!--  EditTextStyle  -->
     <style name="EditTextStyle"></style>
+
     <!--  FloatingActionButtonStyle  -->
     <style name="FloatingActionButtonStyle"></style>
     <!--  BottomNavigation  -->
