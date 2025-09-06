@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Nativ" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Nativ" parent="Base.Theme.Nativ" />
+    <!--  TextStyle  -->
+    <style name="TextStyle">
+
+    </style>
+
+
+    <style name="TextStyle.extra"></style>
+
+    <style name="TextStyle.small"></style>
+
+    <style name="TextStyle.smallExtra"></style>
+
+    <style name="TextStyle.mediumSamill"></style>
+
+    <style name="TextStyle.logExtra"></style>
+    <!--  ButtonStyle  -->
+    <style name="ButtonStyle"></style>
+    <!--  APPBar  -->
+    <style name="AppBar"></style>
+    <!--  FloatingActionButton  -->
+    <style name="FloatingActionButton"></style>
+    <!--  BottomNavigation  -->
+    <style name="BottomNavigation"></style>
+    <!--  EditTextStyle  -->
+    <style name="EditTextStyle"></style>
+    <!--  FloatingActionButtonStyle  -->
+    <style name="FloatingActionButtonStyle"></style>
+    <!--  BottomNavigation  -->
+</resources>
